@@ -1,9 +1,10 @@
 # Pizza-Sales-Data-Analysis
 This project analyzes pizza sales data, including data cleaning, central tendency analysis, and hypothesis testing on weekday vs. weekend sales
+
 # Pizza Sales Data Analysis Project
 
 ### Overview
-This project analyzes pizza sales data to explore sales patterns, central tendencies, and the impact of certain factors (like the day of the week) on pizza sales. Key objectives include exploring data types, conducting data cleaning, analyzing central tendencies, and performing hypothesis testing.
+This project analyzes pizza sales data with a focus on understanding the relationship between various factors like pizza size, sales patterns by day of the week, and pricing trends. Key objectives include data cleaning, central tendency analysis, hypothesis testing, and presenting findings with visualizations.
 
 ### Table of Contents
 1. [Project Details](#project-details)
@@ -12,42 +13,44 @@ This project analyzes pizza sales data to explore sales patterns, central tenden
 4. [Hypothesis Testing](#hypothesis-testing)
 5. [Results and Insights](#results-and-insights)
 6. [Technologies Used](#technologies-used)
-7. [Presentation](#presentation)
+7. [Project Presentation](#project-presentation)
 ### Project Details
 
-- **Dataset**: Pizza sales data was explored for various fields, like pizza type, size, and quantity. An ER diagram was created to categorize data types and establish relationships between fields (e.g., `Pizza_type_id`, `Quantity`, `Size`).
-- **Objective**: The goal was to analyze pizza sales patterns, identify pricing trends based on pizza size, and investigate any outliers in the data.
+- **Dataset**: The pizza sales data includes various fields like `Pizza_type_id`, `Quantity`, and `Size`. An **ER Diagram** was created to illustrate relationships between tables, providing a clear structure for the dataset.
+- **Objective**: To analyze how pizza size influences pricing, explore sales patterns, and conduct hypothesis testing on whether weekday and weekend sales are statistically different.
 
 ### Data Cleaning and Preprocessing
 
 The following steps were undertaken:
-- **Header Formatting**: Freezing top rows and aligning fields.
-- **Field Consistency**: Ensuring `Pizza_type_id` and `Pizza_id` values are standardized.
-- **Formatting**: Converting relevant fields to appropriate number or currency formats.
+- **Header Formatting**: Freezing top rows and aligning fields to improve readability.
+- **Field Consistency**: Ensured consistency in fields like `Pizza_type_id` and `Pizza_id`.
+- **Data Formatting**: Converted relevant fields to proper numerical and currency formats.
 
 ### Analysis
 
 - **Central Tendency and Distribution**:
-  - **Objective**: To understand the average price per pizza size. Analysis revealed that larger sizes, especially XXL, are significantly more expensive.
-  - **Outlier Detection**: Price increase from XL to XXL sizes was inconsistent, suggesting potential outliers. Mean, median, and mode were used to check for anomalies.
+  - **Objective**: To analyze the average pizza price based on size. The results show that larger pizza sizes, especially XXL, are significantly more expensive than smaller ones.
+  - **Outliers**: Price increases from XL to XXL were inconsistent, suggesting potential outliers. A comparison of mean, median, and mode was used to detect anomalies.
 
 ### Hypothesis Testing
 
-- **Hypothesis**: Testing whether pizza sales differ between weekdays and weekends.
-  - **Null Hypothesis (H0)**: No difference in average pizzas sold on weekdays vs. weekends.
-  - **Alternative Hypothesis (H1)**: A difference exists in average pizzas sold on weekdays vs. weekends.
-  - **Results**: The t-test showed a p-value of 0.6649, which is greater than 0.05, so we failed to reject the null hypothesis. There was no significant difference in sales across weekdays and weekends.
+- **Hypothesis**: Testing whether there is a difference in pizza sales between weekdays and weekends.
+  - **Null Hypothesis (H0)**: No difference in the average number of pizzas sold on weekdays vs. weekends.
+  - **Alternative Hypothesis (H1)**: A difference exists in the average number of pizzas sold on weekdays vs. weekends.
+  - **Results**: The t-test showed a p-value of 0.6649, which is greater than 0.05, indicating that we fail to reject the null hypothesis. There is no statistically significant difference between weekday and weekend sales.
 
 ### Results and Insights
 
-- **Pizza Size & Price**: Larger pizzas are generally more expensive, with XXL sizes significantly higher in price. Some inconsistencies in pricing trends suggest potential outliers.
-- **Sales Patterns**: Sales patterns did not vary significantly between weekdays and weekends, supporting the hypothesis of consistent sales.
+- **Pizza Size & Price**: Larger pizza sizes tend to have a higher price, with XXL being significantly more expensive.
+- **Sales Patterns**: There is no significant difference in sales patterns between weekdays and weekends, as indicated by the hypothesis testing results.
 
 ### Technologies Used
-- **Python**: Data cleaning, analysis, and statistical tests.
-- **Excel**: Initial data exploration.
-- **PowerPoint**: For presentation and visualization of findings.
 
-### Presentation
-The presentation includes a step-by-step walkthrough of the analysis and findings. Access the presentation file [here](path/to/Introduction-to-Data-Analytics-and-Statistical-Analysis-1.pptx) to view visualizations, hypothesis testing results, and conclusions.
+- **Python**: Used for data cleaning, analysis, and performing statistical tests.
+- **Excel**: Used for initial data exploration and visualization.
+- **PowerPoint**: Used to present findings and visualize the analysis.
+
+### Project Presentation
+
+View the project presentation [here](path/to/Introduction-to-Data-Analytics-and-Statistical-Analysis-1.pptx) to see visualizations, hypothesis testing results, and detailed conclusions.
 
