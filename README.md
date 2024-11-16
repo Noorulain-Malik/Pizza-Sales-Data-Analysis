@@ -53,5 +53,5 @@ The following steps were undertaken:
 
 ## Project Presentation
 
-View the project presentation [here]("C:\Users\noora\Pizza-Sales-Data-Analysis\Pizza-Sales-Data-Analysis.pptx") to see visualizations, hypothesis testing results, and detailed conclusions.
+View the project presentation [here](C:\Users\noora\Pizza-Sales-Data-Analysis\Pizza-Sales-Data-Analysis.pptx) to see visualizations, hypothesis testing results, and detailed conclusions.
 
