@@ -7,14 +7,13 @@ This project analyzes pizza sales data, including data cleaning, central tendenc
 This project analyzes pizza sales data with a focus on understanding the relationship between various factors like pizza size, sales patterns by day of the week, and pricing trends. Key objectives include data cleaning, central tendency analysis, hypothesis testing, and presenting findings with visualizations.
 
 ## Table of Contents
-1. [Project Details](#project-details)
-2. [Data Cleaning and Preprocessing](#data-cleaning-and-preprocessing)
-3. [Analysis](#analysis)
-4. [Hypothesis Testing](#hypothesis-testing)
-5. [Results and Insights](#results-and-insights)
-6. [Technologies Used](#technologies-used)
-7. [Project Presentation](#project-presentation)
-
+1. [Project Details]
+2. [Data Cleaning and Preprocessing]
+3. [Analysis]
+4. [Hypothesis Testing]
+5. [Results and Insights]
+6. [Technologies Used]
+7. [Project Presentation]
 ## Project Details
 
 - **Dataset**: The pizza sales data includes various fields like `Pizza_type_id`, `Quantity`, and `Size`. An **ER Diagram** was created to illustrate relationships between tables, providing a clear structure for the dataset.
