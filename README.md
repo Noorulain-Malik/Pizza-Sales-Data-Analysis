@@ -16,7 +16,8 @@ This project analyzes pizza sales data with a focus on understanding the relatio
 7. [Project Presentation]
 ## Project Details
 
-- **Dataset**: The pizza sales data includes various fields like `Pizza_type_id`, `Quantity`, and `Size`. An **ER Diagram** was created to illustrate relationships between tables, providing a clear structure for the dataset.
+- **Dataset**: The pizza sales data includes various fields like `Pizza_type_id`, `Quantity`, and `Size`. An **ER Diagram** was created to illustrate relationships between tables, providing a clear structure for the dataset.![ER diagram](https://github.com/user-attachments/assets/769d71a1-58e6-4694-aa2d-d74ac7eced66)
+
 - **Objective**: To analyze how pizza size influences pricing, explore sales patterns, and conduct hypothesis testing on whether weekday and weekend sales are statistically different.
 
 ## Data Cleaning and Preprocessing
@@ -25,12 +26,15 @@ The following steps were undertaken:
 - **Header Formatting**: Freezing top rows and aligning fields to improve readability.
 - **Field Consistency**: Ensured consistency in fields like `Pizza_type_id` and `Pizza_id`.
 - **Data Formatting**: Converted relevant fields to proper numerical and currency formats.
+![Picture1](https://github.com/user-attachments/assets/4f8b74f8-9a32-4457-8a9c-915a104850ef)
 
 ## Analysis
 
 - **Central Tendency and Distribution**:
   - **Objective**: To analyze the average pizza price based on size. The results show that larger pizza sizes, especially XXL, are significantly more expensive than smaller ones.
   - **Outliers**: Price increases from XL to XXL were inconsistent, suggesting potential outliers. A comparison of mean, median, and mode was used to detect anomalies.
+![Picture2](https://github.com/user-attachments/assets/aafc7c6a-7292-42b2-9db3-ac34ba313de2)
+![Picture3](https://github.com/user-attachments/assets/30bba48d-0b1d-4dba-bd18-38ec0e7b76e2)
 
 ## Hypothesis Testing
 
@@ -46,8 +50,8 @@ The following steps were undertaken:
 
 ## Technologies Used
 
-- **Python**: Used for data cleaning, analysis, and performing statistical tests.
-- **Excel**: Used for initial data exploration and visualization.
+- **Lucidchart**: Used for to create ER Diagram
+- **Excel**: Used for initial data exploration Statistical Analysis and visualization.
 - **PowerPoint**: Used to present findings and visualize the analysis.
 
 ## Project Presentation
