@@ -47,6 +47,9 @@ The following steps were undertaken:
 
 - **Pizza Size & Price**: Larger pizza sizes tend to have a higher price, with XXL being significantly more expensive.
 - **Sales Patterns**: There is no significant difference in sales patterns between weekdays and weekends, as indicated by the hypothesis testing results.
+![Picture7](https://github.com/user-attachments/assets/3be5dc18-5701-419a-910f-0550f43ffc76)![Picture8](https://github.com/user-attachments/assets/5f5de71b-2642-4a25-a20d-a981593d2ec7)
+
+![Picture9](https://github.com/user-attachments/assets/fc04c166-a08c-465e-a0d3-832fc7cb2415)
 
 ## Technologies Used
 
